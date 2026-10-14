@@ -23,7 +23,6 @@ try:
         else:
             print('Erro: não é possível dividir por zero.')
             resultado = None
-
     else:
         print("Operação inválida!")
         resultado = None
@@ -33,7 +32,6 @@ try:
 except ValueError:
     print("Erro: digite um número válido.")
     
-
 except TypeError:
     print("Erro: tipo de dado incompatível")
     
